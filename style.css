@@ -1,0 +1,73 @@
+body {
+	background-color: #EA9999;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.contenedor {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.video-responsive {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-responsive iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.button {  
+	padding: 1rem 3rem;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 8px;
+	color: black;
+	cursor: pointer;
+	box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+	border: solid 3px transparent;
+	background-image: linear-gradient(
+		rgba(255, 255, 255, 0),
+		rgba(255, 255, 255, 0)
+	),
+	linear-gradient(101deg, #000000, #000000);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	box-shadow: 2px 1000px 1px #EA9999 inset;
+	display: inline-block;
+	margin: 10px;
+}
+
+#botones {
+	text-align: center;
+	margin-top: 20px;
+}
+
+footer {
+	padding-top: 40px;
+	height: 50px;
+	text-align: center;
+}
